@@ -1,0 +1,24 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo":"Cien años de soledad",
+    "autor": "Grabiel Garcia Marquez",
+    "edicion": "Editorial"
+}
+
+###
+
+DELETE http://localhost:9000/api/1 HTTP/1.1
+###
+PUT http://localhost:9000/api/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo":"Amar o depender",
+    "autor": "Walter Riso",
+    "edicion": "6"
+}
